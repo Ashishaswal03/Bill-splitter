@@ -5,7 +5,11 @@ The Bill Splitter is a simple web application designed to help users easily divi
 Features:
 
 Total Bill Input: Enter the total amount of the bill.
+
 Number of People: Specify the number of people to split the bill among.
+
 Tip Calculation: Optionally add a tip percentage to be included in the final amount.
+
 Per Person Calculation: Automatically calculates and displays the amount each person needs to pay, including their share of the tip if applicable.
+
 Responsive Design: Accessible and function
