@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <form action="">
+        <div class="inner-div" id="first-div">
+          <p class="paragraph">Bill</p>
+          <input
+            type="text"
+            id="first-inpt"
+            placeholder="Enter Bill"
+            required
+          />
+          <p class="paragraph">Select Tip</p>
+          <div class="percentage-sec">
+            <button type="button" class="section five">5%</button>
+            <button type="button" class="section ten">10%</button>
+            <button type="button" class="section fifteen">15%</button>
+            <button type="button" class="section twenty">20%</button>
+            <button type="button" class="section twentyfive">25%</button>
+            <button type="button" class="section thirty">30%</button>
+          </div>
+          <input
+            class="inpt"
+            id="custom-input"
+            type="text"
+            placeholder="Custom Tip..."
+          />
+          <p class="paragraph">Number Of People</p>
+          <input id="People" class="inpt" type="text" />
+          <button class="bill-btn">Generate Bill</button>
+        </div>
+      </form>
+
+      <div class="inner-div" id="div2">
+        <h3 class="values">
+          Tip Amount &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+          <span id="tip-amount"></span>
+        </h3>
+        <h3 class="values">
+          Total &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+          &nbsp &nbsp &nbsp &nbsp <span id="total"></span>
+        </h3>
+        <h3 class="values">
+          Each Person Bill &nbsp &nbsp &nbsp &nbsp <span id="each"></span>
+        </h3>
+        <button class="reset-btn">Reset</button>
+      </div>
+    </div>
+  </body>
+</html>
